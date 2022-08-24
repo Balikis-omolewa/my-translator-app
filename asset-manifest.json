@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/Balikis-omolewa/my-translator-app.git/static/css/main.bef937a7.css",
-    "main.js": "/Balikis-omolewa/my-translator-app.git/static/js/main.6624de54.js",
-    "static/js/787.a978d048.chunk.js": "/Balikis-omolewa/my-translator-app.git/static/js/787.a978d048.chunk.js",
-    "index.html": "/Balikis-omolewa/my-translator-app.git/index.html",
-    "main.bef937a7.css.map": "/Balikis-omolewa/my-translator-app.git/static/css/main.bef937a7.css.map",
-    "main.6624de54.js.map": "/Balikis-omolewa/my-translator-app.git/static/js/main.6624de54.js.map",
-    "787.a978d048.chunk.js.map": "/Balikis-omolewa/my-translator-app.git/static/js/787.a978d048.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.bef937a7.css",
-    "static/js/main.6624de54.js"
-  ]
+  "main.css": "/my-translator-app/static/css/main.6063ced1.chunk.css",
+  "main.js": "/my-translator-app/static/js/main.003e42b4.chunk.js",
+  "main.js.map": "/my-translator-app/static/js/main.003e42b4.chunk.js.map",
+  "runtime~main.js": "/my-translator-app/static/js/runtime~main.0a1cd556.js",
+  "runtime~main.js.map": "/my-translator-app/static/js/runtime~main.0a1cd556.js.map",
+  "static/js/2.fbb7a266.chunk.js": "/my-translator-app/static/js/2.fbb7a266.chunk.js",
+  "static/js/2.fbb7a266.chunk.js.map": "/my-translator-app/static/js/2.fbb7a266.chunk.js.map",
+  "static/js/3.277710fd.chunk.js": "/my-translator-app/static/js/3.277710fd.chunk.js",
+  "static/js/3.277710fd.chunk.js.map": "/my-translator-app/static/js/3.277710fd.chunk.js.map",
+  "index.html": "/my-translator-app/index.html",
+  "precache-manifest.6b24ae5c66d3a0d82fa8797656b2d3dc.js": "/my-translator-app/precache-manifest.6b24ae5c66d3a0d82fa8797656b2d3dc.js",
+  "service-worker.js": "/my-translator-app/service-worker.js",
+  "static/css/main.6063ced1.chunk.css.map": "/my-translator-app/static/css/main.6063ced1.chunk.css.map"
 }
