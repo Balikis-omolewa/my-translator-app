@@ -1,38 +1,177 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+
+.container {
+  margin: 10px 20px;
+}
+
+svg {
+  display: block !important;
+}
+
+input {
+  margin: 8px 0;
+}
+.app-body{
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+label {
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 10px;
+}
+.app-header{
   text-align: center;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 25px;
+}
+.label-body{
+  padding: 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 30%;
+  text-shadow: 1px 1px 1px #616161;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 2px 2px 2px #616161;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html {
   min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #6c956d;
+  font-family: 'Azeret Mono', monospace;
+  color: white !important;
+}
+
+label,
+h1 {
+  color: white !important;
+}
+.language-select{
+  margin-left: 30%;
+  margin-right: 0px;
+  height: 40px;
+  width: 51%
+ 
+}
+.app-p{
+ font-size: 22px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.input-text input{
+  margin-left: 30%;
+  margin-right: 0px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 50%
+  
+}
+.button{
+  margin-left: 30%;
+  margin-right: 0px;
+  height: 40px;
+  width: 51%
+}
+.output-text, TextArea{
+  margin-left: 17.5%;
+  margin-right: 0px;
+  height: 80px;
+  width: 71%
+  
+}
+.responsive{
+  width: 100%;
+}
+h1 {
+  z-index: 20;
+  position: relative;
+}
+
+.container {
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+.opts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.opt {
+  margin: 3px 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 1px 3px;
+  cursor: pointer;
+}
+
+.opt.selected {
+  background-color: #f3fadc;
+  color: black;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper .flower-right {
+  position: absolute;
+  height: 100px;
+  top: 20px;
+  right: 0px;
+  z-index: 1;
+}
+
+.wrapper .flower-left {
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  top: 20px;
+}
+
+.wrapper > div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10%;
+  z-index: 30;
 }
 
-.App-link {
-  color: #61dafb;
+.translate {
+  z-index: 20;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.translate h1 {
+  position: relative;
+  text-shadow: 2px 2px 2px #848484;
+  text-align: center;
+  background-color: #d3dbb7;
+  padding: 20px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
 }
