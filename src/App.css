@@ -73,14 +73,19 @@ h1 {
   text-align: center;
   margin-top: -20px;
 }
-
+.author{
+  font-size: 13px;
+   text-align: center;
+   margin-top: -20px;
+   color: #616161;
+ }
 .input-text input{
   margin-left: 28%;
   margin-right: 0px;
   justify-items: center;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 80px;
   width: 50%
   
 }
@@ -93,7 +98,7 @@ h1 {
 .output-text, TextArea{
   margin-left: 16.5%;
   margin-right: 0px;
-  height: 80px;
+  height: 100px;
   width: 71%
   
 }
