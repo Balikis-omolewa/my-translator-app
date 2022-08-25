@@ -51,7 +51,7 @@ export default function Translate() {
     return (
         <div>
             <div className="app-header">
-                <h2 className="header">Translator App</h2>
+                <h2 className="header">Text Translator App</h2>
                 <p className='app-p'>My first react app</p>
             </div>
                 <hr />
