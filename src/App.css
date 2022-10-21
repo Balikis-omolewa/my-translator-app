@@ -25,16 +25,27 @@ label {
 }
 .app-header{
   text-align: center;
-  font-family: 'Azeret Mono', monospace;
-  font-size: 20px;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+  font-size:  25px;
+color: rgb(73, 9, 9);
   margin-top: 50px;
+}
+
+.app-p{
+ font-size: 16px;
+  text-align: center;
+  margin-top: -18px;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
 }
 .label-body{
   padding: 0px;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   margin-left: 28%;
   text-shadow: 1px 1px 1px #616161;
 }
@@ -43,6 +54,7 @@ label {
   font-size: 48px;
   font-weight: 900;
   text-align: center;
+  
   text-shadow: 2px 2px 2px #616161;
 }
 
@@ -52,8 +64,13 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #6c956d;
+  background-image: linear-gradient(60deg, rgb(161, 144, 16), rgba(248, 154, 2, 0.884), rgb(229, 39, 18));
   font-family: 'Azeret Mono', monospace;
+  box-sizing: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  outline: none;
   color: white !important;
 }
 
@@ -61,46 +78,69 @@ label,
 h1 {
   color: white !important;
 }
+::placeholder{
+  margin-left: 10px;
+}
 .language-select{
-  margin-left: 28%;
+  margin-left: 10%;
+  margin-top: -60px;
   margin-right: 0px;
+  border: none;
+  outline: none;
   height: 40px;
-  width: 51%
+  width: 81%
  
 }
-.app-p{
- font-size: 18px;
-  text-align: center;
-  margin-top: -20px;
-}
 .author{
-  font-size: 13px;
+  font-size: 15px;
    text-align: center;
    margin-top: -20px;
    color: #616161;
  }
  
 .input-text input{
-  margin-left: 28%;
+  margin-left: 10%;
   margin-right: 0px;
+color: #000;
   justify-items: center;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  width: 50%
+  background-color: #fff;
+  height: 100px;
+  outline: none;
+  border: none;
+  width: 80.5%
   
 }
+
 .button{
-  margin-left: 28%;
+  margin-left: 10%;
+  border-radius: 0px;
+  margin-top: 0px;
+  background-image: linear-gradient(30deg, rgb(161, 144, 16),  rgb(229, 39, 18), rgba(248, 154, 2, 0.884));
+  color: rgb(250, 243, 243);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  outline: none;
   margin-right: 0px;
   height: 40px;
-  width: 51%
+  width: 81%
+ 
+}
+.TextArea{
+  background-color: #fff;
 }
 .output-text, TextArea{
-  margin-left: 16.5%;
+  margin-left: 5%;
   margin-right: 0px;
-  height: 100px;
-  width: 71%
+  height: 200px;
+  border: none;
+
+  border-bottom-right-radius: 40px;
+  color: #000;
+  outline: none;
+  width: 90.5%
   
 }
 .responsive{

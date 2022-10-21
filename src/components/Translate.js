@@ -49,27 +49,30 @@ export default function Translate() {
        getLanguageSource()
     }, [inputText])
     return (
-        <div>
+        
+        <div className='panel'>
             <div className="app-header">
-                <h2 className="header">Text Translator App</h2>
-                <p className='app-p'>My first react app</p>
+                <h2 className="header">Text (2)Translate</h2>
+                <p className='app-p'>Learn or translate different languages<br /> of your chioce, Arabic, French, Chinese and more...
+               <br/> (Accurate Translations for Individuals, Young and Adults)</p>
             </div>
                 <hr />
             <div className='app-body'>
                 <div className='responsive'>
                     <Form>
                    
-                    <label className='label-body'>Enter Text</label>
+                    <label className='label-body'></label>
                         <Form.Field className='input-text'
                             control="input"
-                            placeholder='Type Text to Translate..'
+                            placeholder='Enter Text to Translate..'
                             
                             onChange={(e) => setInputText(e.target.value)}
                         />
                         
                         <br />
-                           <label className='label-body'>Select Language</label>
+                           <label className='label-body'></label>
                         <br />
+                        
                         <select className="language-select" onChange={languageKey}>
                             <option>Please Select Language...</option>
                             {languagesList.map((language) => {
@@ -80,26 +83,29 @@ export default function Translate() {
                                 )
                             })}
                         </select>
-                          <Button className='button'
+                        <Button className='button'
                             color="orange" 
                             size="large" 
                             onClick={translateText}
                         >
                            
                             Translate</Button>
+
                         <br /><br />
-                        <label className='label-body'>Output</label><br />
+                        <label className='label-body'></label><br />
                         <Form.Field className='output-text'
                             control={TextArea}
                             placeholder='Your Result Translation..'
                             value={resultText}
                         />
                        
-                       
                          
                     </Form>
                 </div>
-                <br /><br /><br /><br /><hr /><br />
+                <br /><br /><br />
+                <hr />
+                <br /><br />
+              
                 <div>
                 <p className='author'>Created With Love By Balikis Omolewa </p> 
                 </div>
