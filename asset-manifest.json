@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-translator-app/static/css/main.6063ced1.chunk.css",
-  "main.js": "/my-translator-app/static/js/main.003e42b4.chunk.js",
-  "main.js.map": "/my-translator-app/static/js/main.003e42b4.chunk.js.map",
+  "main.css": "/my-translator-app/static/css/main.93a3a1d2.chunk.css",
+  "main.js": "/my-translator-app/static/js/main.944b02fc.chunk.js",
+  "main.js.map": "/my-translator-app/static/js/main.944b02fc.chunk.js.map",
   "runtime~main.js": "/my-translator-app/static/js/runtime~main.0a1cd556.js",
   "runtime~main.js.map": "/my-translator-app/static/js/runtime~main.0a1cd556.js.map",
   "static/js/2.fbb7a266.chunk.js": "/my-translator-app/static/js/2.fbb7a266.chunk.js",
@@ -9,7 +9,7 @@
   "static/js/3.277710fd.chunk.js": "/my-translator-app/static/js/3.277710fd.chunk.js",
   "static/js/3.277710fd.chunk.js.map": "/my-translator-app/static/js/3.277710fd.chunk.js.map",
   "index.html": "/my-translator-app/index.html",
-  "precache-manifest.6b24ae5c66d3a0d82fa8797656b2d3dc.js": "/my-translator-app/precache-manifest.6b24ae5c66d3a0d82fa8797656b2d3dc.js",
+  "precache-manifest.6f5e9f9053bbfd6d22dcb12a5710aaab.js": "/my-translator-app/precache-manifest.6f5e9f9053bbfd6d22dcb12a5710aaab.js",
   "service-worker.js": "/my-translator-app/service-worker.js",
-  "static/css/main.6063ced1.chunk.css.map": "/my-translator-app/static/css/main.6063ced1.chunk.css.map"
+  "static/css/main.93a3a1d2.chunk.css.map": "/my-translator-app/static/css/main.93a3a1d2.chunk.css.map"
 }
