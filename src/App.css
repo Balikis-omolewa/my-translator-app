@@ -91,26 +91,33 @@ h1 {
   width: 81%
  
 }
+
 .author{
   font-size: 15px;
+}
+.app-p{
+ font-size: 18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.author{
+  font-size: 13px;
    text-align: center;
    margin-top: -20px;
    color: #616161;
  }
- 
+
 .input-text input{
   margin-left: 10%;
   margin-right: 0px;
-color: #000;
+  color: #000;
   justify-items: center;
-  justify-content: center;
-  align-items: center;
   background-color: #fff;
   height: 100px;
   outline: none;
   border: none;
   width: 80.5%
-  
+
 }
 
 .button{

@@ -48,14 +48,13 @@ export default function Translate() {
 
        getLanguageSource()
     }, [inputText])
+    
     return (
-        
-        <div className='panel'>
             <div className="app-header">
                 <h2 className="header">Text (2)Translate</h2>
-                <p className='app-p'>Learn or translate different languages<br /> of your chioce, Arabic, French, Chinese and more...
-               <br/> (Accurate Translations for Individuals, Young and Adults)</p>
-            </div>
+                <p className='app-p'>Learn or translate different languages<br /> of your chioce, Arabic, French, Chinese and more...</p>
+               <br /> <p>(Accurate Translations for Individuals, Young and Adults)</p>
+ </div>
                 <hr />
             <div className='app-body'>
                 <div className='responsive'>
@@ -102,12 +101,18 @@ export default function Translate() {
                          
                     </Form>
                 </div>
+
                 <br /><br /><br />
                 <hr />
                 <br /><br />
               
                 <div>
                 <p className='author'>Created With Love By Balikis Omolewa </p> 
+
+                 <br /><br /><br /><br /><hr />
+                <div>
+                <p className='author'>Created With Love By Balikis-Omolewa</p>
+
                 </div>
             </div>
         </div>
