@@ -101,12 +101,6 @@ export default function Translate() {
                          
                     </Form>
                 </div>
-
-                 <br /><br /><br /><br /><hr />
-                <div>
-                <p className='author'>Created With Love By Balikis-Omolewa</p>
-
-                </div>
             </div>
         </div>
     )
