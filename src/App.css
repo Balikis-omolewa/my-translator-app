@@ -92,9 +92,7 @@ h1 {
  
 }
 
-.author{
-  font-size: 15px;
-}
+
 .app-p{
  font-size: 18px;
   text-align: center;
@@ -139,7 +137,7 @@ h1 {
   background-color: #fff;
 }
 .output-text, TextArea{
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 0px;
   height: 200px;
   border: none;
@@ -147,7 +145,7 @@ h1 {
   border-bottom-right-radius: 40px;
   color: #000;
   outline: none;
-  width: 90.5%
+  width: 80.5%
   
 }
 .responsive{
@@ -187,20 +185,6 @@ h1 {
   z-index: 1;
 }
 
-.wrapper .flower-right {
-  position: absolute;
-  height: 100px;
-  top: 20px;
-  right: 0px;
-  z-index: 1;
-}
-
-.wrapper .flower-left {
-  position: absolute;
-  height: 100px;
-  left: 0px;
-  top: 20px;
-}
 
 .wrapper > div {
   display: flex;
